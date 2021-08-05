@@ -1,14 +1,10 @@
 package com.karthi.spring.git_demo;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
 	public void addData(String data) {
 		System.out.println("Data: "+data);
-		if(data.equals("Groww")) {
+		if(data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Groww is Printed");
 		}
 	}
