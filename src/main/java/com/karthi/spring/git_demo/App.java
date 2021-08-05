@@ -8,6 +8,9 @@ public class App
 			System.out.println("Groww is Printed");
 		}
 	}
+	public void addedMethod(){
+	System.out.println("New Method"); 
+	}
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
